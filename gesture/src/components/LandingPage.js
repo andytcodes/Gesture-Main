@@ -29,7 +29,7 @@ const LandingPage = () => {
           <button className="btn btn-accent btn-wide mb-2" >Login</button>
           <a className="link-primary block mb-10" href="registerpage">Register</a>
           {/* collapse content */}
-          <div className="collapse collapse-arrow w-60 border rounded-box border-primary " tabIndex="0">
+          <div className="collapse collapse-arrow w-60 border rounded-box border-primary border-opacity-5 shadow-2xl" tabIndex="0">
             <input type="checkbox"/> 
             <div className="collapse-title text-xl">What is <em className="text-primary"> Gesture</em>?</div>
             <div className="collapse-content">
